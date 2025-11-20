@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://nippon-api.onrender.com' // <-- A URL DO RENDER
+  apiUrl: 'http://3.93.46.239/' // <-- A URL DO RENDER
 };
