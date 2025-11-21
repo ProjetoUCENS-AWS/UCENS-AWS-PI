@@ -30,7 +30,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp",
         policyBuilder =>
         {
-            policyBuilder.WithOrigins("http://localhost:4200", "https://projeto-ucens.vercel.app") 
+            policyBuilder.WithOrigins("http://localhost:4200", "https://projeto-ucens.vercel.app", "https://main.d2ytfrb1fk7im4.amplifyapp.com") 
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
